@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo2"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="-15dp"
+            app:srcCompat="@drawable/beirada" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="65dp"
+            android:layout_height="44dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="28dp"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/seta" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="64dp"
+            android:layout_height="61dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/mais"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="421dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="690dp"
+            android:background="@drawable/buton"
+            android:text="Dispositivos"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+            app:layout_constraintStart_toStartOf="@+id/imageView3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="185dp"
+                    app:cardBackgroundColor="@color/ciano"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="175dp"
+                        android:src="@drawable/micro" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="160dp"
+                        android:textColor="@color/white"
+                        android:background="@color/ciano2"
+                        android:textStyle="bold"
+                        android:text="MicroOndas"
+                        android:textAlignment="center" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="185dp"
+                    app:cardBackgroundColor="@color/ciano"
+                    app:cardCornerRadius="10dp"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="175dp"
+                        android:src="@drawable/cell" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="160dp"
+                        android:background="@color/ciano2"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="Cell"
+                        android:textAlignment="center" />
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="185dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/ciano"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="175dp"
+                        android:src="@drawable/pc2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="160dp"
+                        android:background="@color/ciano2"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="PCZÃO"
+                        android:textAlignment="center" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="160dp"
+                    android:layout_height="185dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/ciano"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="175dp"
+                        android:src="@drawable/geladeira" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="160dp"
+                        android:background="@color/ciano2"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="PCZÃO"
+                        android:textAlignment="center" />
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
